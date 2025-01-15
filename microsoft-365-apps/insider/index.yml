@@ -1,0 +1,106 @@
+### YamlMime:Hub
+title: Microsoft 365 Insider (for business) 
+summary: Use Microsoft 365 Insider in your organization to enable you to explore Microsoft 365 Apps features prior to the next Microsoft 365 update. 
+brand: m365
+
+metadata:
+  title: Microsoft 365 Insider Program for Business documentation 
+  description: This page contains links to content to help Microsoft 365 Apps admins provide Microsoft 365 Insider to users in their organization.
+  ms.service: o365-proplus-itpro
+  ms.topic: hub-page 
+  ms.collection: Tier1
+  ms.custom: intro-hub-or-landing
+  ms.author: nwhite
+  author: nicholasswhite
+  ms.date: 08/28/2024
+  ms.localizationpriority: medium
+
+highlightedContent:
+  items:
+    - title: Overview of the program
+      itemType: overview
+      url: overview.md
+    - title: Microsoft 365 Insider channels
+      itemType: learn
+      url: compare-channels.md
+    - title: Deployment options
+      itemType: deploy
+      url: deploy/options.md
+    
+
+productDirectory:
+  items:
+    - title: Deployment options for Windows
+      imageSrc: /office/media/icons/deploy-blue.svg
+      links:
+        - url: deploy/office-deployment-tool.md
+          text: Office Deployment Tool
+        - url: deploy/configuration-manager.md
+          text: Configuration Manager
+        - url: deploy/intune.md
+          text: Microsoft Intune
+        - url: deploy/group-policy.md
+          text: Group Policy
+        - url: deploy/user-choice.md
+          text: Let your users choose
+        - url: deploy/registry.md
+          text: Make a registry change  
+    
+    - title: Deployment options for Mac
+      imageSrc: /office/media/icons/download-blue.svg
+      links:
+        - url: deploy/microsoft-autoupdate.md
+          text: Microsoft AutoUpdate (MAU)
+        - url: deploy/preference.md
+          text: Preference
+        
+    - title: What's new
+      imageSrc: /office/media/icons/whats-new-megaphone-blue.svg
+      links:
+        - url: https://techcommunity.microsoft.com/t5/microsoft-365-insider-blog/bg-p/Microsoft365InsiderBlog
+          text: Blog
+        - url: /officeupdates/beta-channel
+          text: Release notes for Beta Channel for Windows
+        - url: /officeupdates/current-channel-preview
+          text: Release notes for Current Channel (Preview) for Windows
+    - title: Helpful resources
+      imageSrc: /office/media/icons/help.svg
+      links:
+        - url: https://www.linkedin.com/showcase/microsoft-365-insider
+          text: LinkedIn
+        - url: https://x.com/msft365insider
+          text: X (formerly Twitter)
+        - url: https://www.threads.net/@msft365insider
+          text: Threads  
+        - url: https://techcommunity.microsoft.com/t5/microsoft-365-insider/bd-p/Microsoft365Insider
+          text: Microsoft Tech Community
+        - url: https://answers.microsoft.com/en-us/officeinsider/forum
+          text: Microsoft Support Community          
+        - url: https://techcommunity.microsoft.com/t5/microsoft-365-insider-blog/microsoft-365-insider-handbook/ba-p/4205461#feedback
+          text: How to provide feedback 
+
+    - title: Microsoft 365 Insider for consumers
+      imageSrc: /office/media/icons/user-monitor.svg
+      links:
+        - url: https://techcommunity.microsoft.com/t5/microsoft-365-insider-blog/microsoft-365-insider-handbook/ba-p/4205461
+          text: Overview
+        - url: https://techcommunity.microsoft.com/t5/microsoft-365-insider-blog/microsoft-365-insider-frequently-asked-questions-faq/ba-p/4206579
+          text: Frequently asked questions (FAQs)  
+        - url: https://techcommunity.microsoft.com/t5/microsoft-365-insider-blog/join-the-microsoft-365-insider-program-on-windows/ba-p/4206638
+          text: Join on Windows
+        - url: https://techcommunity.microsoft.com/t5/microsoft-365-insider-blog/join-the-microsoft-365-insider-program-on-macos/ba-p/4206727 
+          text: Join on macOS 
+        - url: https://techcommunity.microsoft.com/t5/microsoft-365-insider-blog/join-the-microsoft-365-insider-program-on-ios/ba-p/4207783
+          text: Join on iOS
+        - url: https://techcommunity.microsoft.com/t5/microsoft-365-insider-blog/join-the-microsoft-365-insider-program-on-android/ba-p/4207786
+          text: Join on Android
+     
+    - title: Other Insider programs at Microsoft
+      imageSrc: /office/media/icons/globe-internet.svg
+      links:
+        - url: https://www.microsoft.com/windowsinsider/
+          text: Windows Insider
+        - url: /MicrosoftTeams/public-preview-doc-updates
+          text: Microsoft Teams Public Preview
+        - url: https://techcommunity.microsoft.com/t5/windows-it-pro-blog/security-update-validation-program-the-early-bird-tests-the-worm/ba-p/2569392
+          text: Security Update Validation Program
