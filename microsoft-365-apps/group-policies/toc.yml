@@ -1,0 +1,5 @@
+items:
+  - name: Group policy
+    items:
+      - name: Enabling Open in Desktop Setting by Group Policy 
+        href: enable-open-in-desktop-group-policy.md

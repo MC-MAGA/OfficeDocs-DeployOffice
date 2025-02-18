@@ -1,0 +1,80 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "**/docfx.json",
+          "_repo.en-us/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices.md",
+          "SECURITY.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "**/docfx.json",
+          "_repo.en-us/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+      "breadcrumb_path": "/office/breadcrumb/toc.json",
+      "uhfHeaderId": "MSDocsHeader-Office",
+      "feedback_system": "Standard",
+      "feedback_product_url": "https://techcommunity.microsoft.com",
+      "permissioned-type": "public",
+      "titleSuffix": "Office",
+      "searchScope": [
+        "Office"
+      ],
+      "contributors_to_exclude": [
+        "rjagiewich",
+        "claydetels19",
+        "jborsecnik",
+        "American-Dipper",
+        "garycentric",
+        "beccarobins",
+        "v-stchambers",
+        "shdyas",
+        "Stacyrch140",
+        "American-Dipper",
+        "chrfox",
+        "DCtheGeek",
+        "jwhit-MSFT",
+        "samanro",
+        "dstrome",
+        "robmazz",
+        "padmagit77",
+        "aditisrivastava07",
+        "Ruchika-mittal01"
+      ]
+    },
+    "fileMetadata": {},
+    "template": [],
+    "markdownEngineName": "markdig"
+  }
+}

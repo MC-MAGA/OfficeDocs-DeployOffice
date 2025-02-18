@@ -1,0 +1,98 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "**/docfx.json",
+          "_repo.en-us/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices.md",
+          "SECURITY.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "**/docfx.json",
+          "_repo.en-us/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+      "breadcrumb_path": "/microsoft-365-apps/breadcrumb/toc.json",
+      "uhfHeaderId": "MSDocsHeader-M365-IT",
+      "feedback_system": "Standard",
+      "feedback_product_url": "https://techcommunity.microsoft.com",
+      "permissioned-type": "public",
+      "searchScope": [
+        "Microsoft 365 Apps"
+      ],
+      "titleSuffix": "Microsoft 365 Apps",
+      "contributors_to_exclude": [
+        "rjagiewich",
+        "claydetels19",
+        "jborsecnik",
+        "American-Dipper",
+        "garycentric",
+        "beccarobins",
+        "v-stchambers",
+        "shdyas",
+        "Stacyrch140",
+        "American-Dipper",
+        "chrfox",
+        "DCtheGeek",
+        "jwhit-MSFT",
+        "samanro",
+        "dstrome",
+        "robmazz",
+        "padmagit77",
+        "aditisrivastava07",
+        "Ruchika-mittal01"
+      ]
+    },
+    "fileMetadata": {
+      "recommendations": {
+        "compat/**/*.md": false,
+        "fieldnotes/**/*.md": false,
+        "oct/**/*.md": false,
+        "office2016/**/*.md": false,
+        "other/**/*.md": false,
+        "privacy/**/*.md": false,
+        "security/**/*.md": false,
+        "vlactivation/**/*.md": false
+      },
+      "feedback_product_url": {
+        "insider/**/*.md": "https://techcommunity.microsoft.com/t5/microsoft-365-insider/bd-p/Microsoft365Insider"
+      },
+      "titleSuffix": {
+        "insider/**/*.md": "Microsoft 365 Insider"
+      }
+    },
+    "template": [],
+    "dest": "OfficeDocs-OfficeProPlus",
+    "markdownEngineName": "markdig"
+  }
+}
